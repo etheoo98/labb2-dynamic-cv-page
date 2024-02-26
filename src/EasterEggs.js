@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function ModalEasterEgg() {
   useEffect(() => {
@@ -39,7 +40,12 @@ function ModalEasterEgg() {
           </button>
         </header>
         <div className="main-article">
-          <p>Det var en ko och det var poängen.</p>
+          <p>
+            Det var en ko och det var poängen. <br />
+            <Link to="/github-projects">Här</Link> hittar du mina Github
+            projekt.
+          </p>
+          <p></p>
         </div>
       </article>
     </div>

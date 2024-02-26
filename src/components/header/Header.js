@@ -29,7 +29,10 @@ function Header({ isLandingPage }) {
     <header aria-label="Top Header">
       <div className="header-top-container">
         <div className="header-top-content">
-          <Link to="/" className="logo-area" aria-label="Home">
+          <Link
+            to="/"
+            className="logo-area"
+            aria-label="Home">
             <img src={logo} alt="etheoo logo" />
             <h1 aria-label="Portfolio">
               Portfol<span className="highlight-text">i/o</span>

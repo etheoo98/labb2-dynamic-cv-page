@@ -1,20 +1,27 @@
 function NavLinks() {
+
+  function scrollToId(id) {
+    const element = document.getElementById(id);
+
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+
   return (
     <ul>
       <li>
-        <a href="#om-mig">Om mig</a>
+        <button onClick={() => scrollToId("om-mig")}>Om mig</button>
       </li>
       <li>
-        <a href="#tidigare-projekt">Projekt</a>
+        <button onClick={() => scrollToId("tidigare-projekt")}>Projekt</button>
       </li>
       <li>
-        <a href="#cv">CV</a>
+        <button onClick={() => scrollToId("cv")}>CV</button>
       </li>
       <li>
-        <a href="#kontakt">Kontakt</a>
+        <button onClick={() => scrollToId("kontakt")}>Kontakt</button>
       </li>
     </ul>
-  )
+  );
 }
 
 export default NavLinks;

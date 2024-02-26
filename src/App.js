@@ -5,11 +5,11 @@ import GithubProjects from "./pages/github-projects//GitHubProjects";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/labb2-dynamic-cv-page">
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="*" element={<NoPage />}></Route>
-        <Route path="github-projects" element={<GithubProjects />}></Route>
+        <Route path="/github-projects" element={<GithubProjects />}></Route>
       </Routes>
     </BrowserRouter>
   );

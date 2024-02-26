@@ -2,11 +2,11 @@ header {
   background-color: var(--primary-black);
 }
 
-header nav ul li a {
+header nav ul li button {
   color: var(--primary-link);
 }
 
-header nav ul li a:hover {
+header nav ul li button:hover {
   color: var(--primary-white);
   background-color: var(--secondary-black);
   text-decoration: underline;
@@ -55,10 +55,11 @@ header nav ul li a:hover {
   border-left: 1px solid var(--secondary-black);
 }
 
-.desktop-nav ul li a {
+.desktop-nav ul li button {
   display: block;
   height: 74px;
   line-height: 74px;
+  font-size: 1rem;
   padding: 0 16px;
 }
 
@@ -89,10 +90,11 @@ header nav ul li a:hover {
   margin: 0 auto;
 }
 
-.mobile-nav ul li a {
+.mobile-nav ul li button {
   display: block;
   padding: 16px 24px;
   border-bottom: 1px solid var(--secondary-black);
+  width: 100%;
 }
 
 .mobile-menu-close-btn {

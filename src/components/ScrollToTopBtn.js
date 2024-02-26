@@ -20,10 +20,10 @@ function ScrollToTopBtn() {
 
   return (
     <button
-      class="scroll-to-top-btn"
+      className="scroll-to-top-btn"
       onClick={scrollToTop}
       aria-label="Scroll to top button">
-      <i class="fa-solid fa-angle-up"></i>
+      <i className="fa-solid fa-angle-up"></i>
     </button>
   );
 }
