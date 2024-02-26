@@ -1,0 +1,129 @@
+footer a {
+  color: var(--primary-link);
+}
+
+footer a:hover {
+  color: var(--primary-white);
+}
+
+.footer-container {
+  background-image: url(../../img/svg/checkered-pattern.svg);
+  background-size: 178px;
+  border-bottom: 4px solid var(--primary-accent);
+}
+
+.footer-content {
+  max-width: 1024px;
+  padding: 24px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 256px;
+}
+
+.footer-item {
+  flex: 1;
+}
+
+.footer-item:first-of-type {
+  flex: 2;
+}
+
+.footer-item h2,
+.toggle-mobile-footer-menu-btn span {
+  font-size: 1.6rem;
+  color: var(--primary-white);
+}
+
+.toggle-mobile-footer-menu-btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+.toggle-mobile-footer-menu-btn i {
+  font-size: 1.5rem;
+  color: var(--primary-link);
+}
+
+.footer-item .toggle-mobile-footer-menu-btn,
+.footer-item h2 {
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--primary-accent);
+}
+
+.footer-toggle-icon {
+  display: none;
+}
+
+.footer-nav.show {
+  display: block;
+}
+
+.footer-nav,
+.socials-area ul {
+  margin-top: 16px;
+}
+
+.footer-nav ul li {
+  margin-top: 12px;
+}
+
+.footer-nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.socials-area ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.footer-bottom-container {
+  color: var(--primary-white);
+  background-color: var(--primary-black);
+  text-align: center;
+  padding: 32px 24px;
+}
+
+.footer-toggle-icon {
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer-nav,
+  .footer-item-desktop-header {
+    display: none;
+  }
+
+  .footer-toggle-icon {
+    display: block;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .socials-area h2 {
+    text-align: center;
+    font-size: 1em;
+    border-bottom: none;
+  }
+
+  .toggle-mobile-footer-menu-btn {
+    display: flex;
+  }
+
+  .toggle-mobile-footer-menu-btn:hover {
+    cursor: pointer;
+  }
+
+  .toggle-mobile-footer-menu-btn:hover > i {
+    color: var(--primary-white);
+  }
+}

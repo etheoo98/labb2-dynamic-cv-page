@@ -1,0 +1,46 @@
+{
+  "education": [
+    {
+      "school": "Edugrade",
+      "program": "Systemutvecklare.NET med AI-kompetens",
+      "location": "Sundsvall",
+      "duration": "2023-2025"
+    },
+
+    {
+      "school": "Vuxenutbildning",
+      "program": "Naturvetenskap och teknik",
+      "location": "Sundsvall",
+      "duration": "2019-2023"
+    },
+
+    {
+      "school": "NTI Gymnasiet",
+      "program": "Teknikprogrammet",
+      "location": "Sundsvall",
+      "duration": "2014-2017"
+    }
+  ],
+
+  "work": [
+    {
+      "company": "Bauhaus",
+      "location": "Birsta - Sundsvall",
+      "duration": "2018-2019",
+      "description": "Som logistikmedarbetare åt ett av Europas största byggvaruhus-kedjor, ansvarade jag för produkten. Från att den mottogs från leverantör, tills att den nådde fram till kunden. Det var ett spännande arbete i lära; Att förstå hur logistikens betydelse och hur det motsvarar hjärtat i ett varuhus."
+    }
+  ],
+
+  "contact": {
+    "email": "theodor.hagg@outlook.com",
+    "linkedin": "https://www.linkedin.com/in/etheoo/",
+    "location": {
+      "name": "Sundsvall, Sverige",
+      "google-maps-link": "https://www.google.com/maps/place/Sundsvall/data=!4m2!3m1!1s0x4664674c9dc6761f:0x683f9bac9f166120"
+    }
+  },
+
+  "language": ["Svenska", "Engelska"],
+
+  "other": ["B-körkort"]
+}

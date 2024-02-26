@@ -1,0 +1,26 @@
+.error-container {
+    text-align: center;
+}
+
+.error-container h2, .error-container span, .error-container p {
+    color: var(--secondary-black);
+    user-select: none;
+}
+
+.error-container h2 {
+    font-size: 10rem;
+}
+
+.error-container span {
+    display: block;
+    margin-top: -20px;
+    font-size: 3rem;
+}
+
+.link {
+    color: var(--primary-accent);
+}
+
+.link:hover {
+    text-decoration: underline;
+}

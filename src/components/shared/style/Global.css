@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Redwing-Regular";
+  src: url(../../../fonts/Redwing-Medium.otf) format("opentype");
+}
+
+:root {
+  --primary-black: #0f0f0f;
+  --primary-white: #fff;
+  --secondary-black: #191919;
+  --secondary-white: #ebebeb;
+  --secondary-white2: #f7f7f7;
+  --primary-accent: #246abd; /* #1C71D8 */
+  --primary-link: #c4c4c4;
+  --fg-primary: #000;
+  --bg-primary: #fff;
+}
+
+:focus {
+  outline: 2px #fff;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Redwing-Regular";
+  letter-spacing: 0.3px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.highlight-text {
+  color: var(--primary-accent);
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+main {
+  min-height: 100dvh;
+}
+
+.scroll-to-top-btn {
+  position: fixed;
+  right: -70px;
+  bottom: 30px;
+  background-color: var(--primary-accent);
+  color: var(--primary-white);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  font-size: 2rem;
+  transition: ease-in 0.3s;
+}
+
+.scroll-to-top-btn:hover {
+  cursor: pointer;
+}
+
+.scroll-to-top-btn.show {
+  right: 30px;
+}
+
+.section-container {
+  padding: 32px 0;
+}
+
+.section-content {
+  max-width: 1024px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
